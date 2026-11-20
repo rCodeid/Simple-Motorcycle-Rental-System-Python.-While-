@@ -1,82 +1,66 @@
-🏍️ Simple Motorcycle Rental System (Python)
+# 🏍️ Simple Motorcycle Rental System (Python)
 
-📌 About This Project
+## 📌 About This Project
 
-A simple motorcycle rental system developed using Python. This project was created to practice basic Python programming concepts and build a simple rental application.
+A simple motorcycle rental system developed using Python. This project was created to practice basic Python programming concepts.
 
-✨ Features
+## ✨ Features
 
-Customer name input
+- Customer name input
+- Rental date input
+- Motorcycle selection (NMAX, ZX, and Vario)
+- Automatic rental cost calculation
+- Automatic discount calculation
+- Payment validation
+- Change calculation
+- Rental receipt generation
 
-Rental date input
+## 🏍️ Motorcycle Prices
 
-Motorcycle selection (NMAX, ZX, and Vario)
+| Motorcycle | Price per Day |
+|---|---:|
+| NMAX | Rp100,000 |
+| ZX | Rp350,000 |
+| Vario | Rp70,000 |
 
-Automatic rental cost calculation
+## 🎁 Discount Rules
 
-Automatic discount calculation
+- 1–2 rental days: 0% discount
+- 3–6 rental days: 10% discount
+- 7 or more rental days: 20% discount
 
-Payment validation
+## 🛠️ Technologies Used
 
-Change calculation
+- Python
+- datetime module
 
-Rental receipt generation
+## ▶️ How to Run
 
-🏍️ Motorcycle Prices
+1. Make sure Python is installed.
+2. Download `Motorcycle-Rental.py`.
+3. Open a terminal in the file directory.
+4. Run this command:
 
-Motorcycle
-
-Price per Day
-
-NMAX
-
-Rp100,000
-
-ZX
-
-Rp350,000
-
-Vario
-
-Rp70,000
-
-🎁 Discount Rules
-
-1–2 rental days: 0% discount
-
-3–6 rental days: 10% discount
-
-7 or more rental days: 20% discount
-
-🛠️ Technologies Used
-
-Python
-
-datetime module
-
-▶️ How to Run
-
-Make sure Python is installed on your computer.
-
-Download Motorcycle-Rental.py.
-
-Open a terminal in the file directory.
-
-Run the following command:
-
+```bash
 python Motorcycle-Rental.py
+```
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 Simple-Motorcycle-Rental-System/
-│
 ├── rental/
 │   └── Motorcycle-Rental.py
-│
 └── README.md
+```
 
-👨‍💻 Developer
+## 👨‍💻 Developer
 
-rCodeid
+**rCodeid**
 
 Beginner Python Developer
+
+---
+
+*This project is part of my Python programming learning journey.*
+
